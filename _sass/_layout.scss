@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $grey-color;
     min-height: 56px;
     padding-top: 24px;
     padding-bottom: 12px;
@@ -128,14 +127,143 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
+
+
+
+/*
+ * Full width basic grid
+ */
+
+.half {
+    width: 50%;
+    float: left;
+}
+
+.third {
+    width: 33.333333%;
+    float: left;
+}
+
+.quarter {
+    width: 25%;
+    float: left;
+}
+
+.push-25 {
+    margin-left: 25%;
+    width: 50%;
+    float: left;
+}
+
+.push-16 {
+    margin-left: 16%;
+    width: 66.666667%;
+    float: left;
+}
+
+
+/*
+ * Home - case studies
+ */
+
+ .full-wrap {
+   position: relative;
+   display: block;
+   width: 100%;
+   min-height: 40vh;
+ }
+
+.tri {
+  position: absolute;
+  width: 30vw;
+  left: 35%;
+  }
+
+.tri img {
+
+}
+
+.half {
+   min-height: 40vh;
+}
+
+.half:nth-of-type(1) {
+ background: url(http://fillmurray.com/700/400);
+ background-size: cover;
+
+}
+
+.half * {
+ padding-left: 35%;
+ padding-right: 10%;
+}
+
+.work-grid-item {
+
+}
+
+.work-grid-item a {
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+  display: block;
+  -webkit-transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-o-transition: all 0.7s ease-out;
+	transition: all 0.7s ease-out;
+
+}
+
+.work-grid-item a:hover {
+  -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+   -webkit-transition: all 0.7s ease-out;
+   -moz-transition: all 0.7s ease-out;
+   -o-transition: all 0.7s ease-out;
+   transition: all 0.7s ease-out;
+}
+
+
+.cs-odd a {
+
+  -webkit-clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+
+}
+
+.cs-odd a:hover {
+
+  -webkit-clip-path: polygon(50% -100%, 200% 200%, -100% 200%);
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+
+}
+
+.cs-even a {
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+
+}
+
+.cs-even a:hover {
+  -webkit-clip-path: polygon(-100% -100%, 200% -100%, 50% 200%);
+  clip-path: polygon(-100% -100%, 200% -100%, 50% 200%);
+
+}
+
+
+
+
+
+
 
 @include media-query($on-laptop) {
     .footer-col-1,

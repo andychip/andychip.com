@@ -98,9 +98,15 @@ h1 {
   font-size: 42px;
   position: relative;
   line-height: 54px;
+  color: $grey-color;
 }
 
-
+h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: $grey-color;
+}
 
 
 /**
@@ -219,4 +225,17 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+a, a:link, a:visited, a:active {
+  -webkit-transition-duration: 0.33s;
+  -webkit-transition-property: color, background, text-shadow, border, opacity, text-decoration, background-size, fill, -webkit-filter, clippath;
+  -moz-transition-duration: 0.33s;
+  -moz-transition-property: color, background, text-shadow, border, opacity, text-decoration, background-size, fill, -moz-filter;
+  -o-transition-duration: 0.33s;
+  -o-transition-property: color, background, text-shadow, border, opacity, text-decoration, background-size, fill, -o-filter;
+  transition-duration: 0.33s;
+  transition-property: color, background, text-shadow, border, opacity, text-decoration, background-size, filter;
+  text-decoration: none;
+  outline: none;
 }

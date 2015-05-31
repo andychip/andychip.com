@@ -11,4 +11,13 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <script src="//use.typekit.net/pwz0wbz.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    $(window).on('resize load',function() {
+      triHeight();
+    })
+    function triHeight() {
+      th = $(".tri a img").height();
+      $('.half').css({'height': th +'px'});
+</script>
 </head>
