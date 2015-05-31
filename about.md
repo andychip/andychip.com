@@ -1,11 +1,28 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="about">
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="half"><h1>{{page.title}}</h1>
+      <p>I'm Andy Chipperfield, and I've been a UX/UI designer full-time since 2007. Previous to that I worked for 7 years in the City of London as a catastrophe modeller. I quit that job to do what I love. I first coded HTML in notepad in 1999. </p>
+      </div>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+      <div class="half">
+        <p>Outside of digital design, I like to woodburn and sell unique items of pyrography in my shop <a href="http://burncraft.co">Burncraft</a>. I love craft beer (particularly a Porter, if we ever meet), and have a large soft spot for Bourbon. The family and I are in the pool to emigrate to the beautiful Vancouver in 2015, which is where we're hoping to spend the rest of our lives.</p>
+      </div>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+    </div>
+
+    <div class="wrapper">
+      <h3>Stuff I recommend</h3>
+      <h4>Books</h4>
+
+      <h4>Craft Beer</h4>
+
+      <h4>Bourbon</h4>
+
+    </div>

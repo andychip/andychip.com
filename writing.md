@@ -3,15 +3,26 @@ layout: page
 title: Writing
 permalink: /writing/
 ---
+<div class="writing">
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="half page-heading"><h1>{{page.title}}</h1></div>
+    </div>
+    <div class="wrapper">
+        <ul class="post-list">
+          {% for category in site.categories %}
+            <li class="half"><h3>{{ category | first }}</h3>
+              <ul>
+                {% for posts in category %}
+                  {% for post in posts %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endfor %}
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
 
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul>
+    </div>
+  </div>
+</div>

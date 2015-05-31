@@ -1,12 +1,16 @@
 # Site settings
 title: Andy Chipperfield - UI/UX Designer
 email: hi@andychip.com
-description: > # this means to ignore newlines until "baseurl:"
-  Andy Chipperfield is a UI/UX Designer currently based in the UK.
+description: Andy Chipperfield is a UI/UX Designer currently based in the UK.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://andychip.com" # the base hostname & protocol for your site
 twitter_username: andychipster
 github_username:  andychip
+dribbble_username:  andychip
+
+
 
 # Build settings
 markdown: kramdown
+
+google_analytics_id: UA-2104311-42

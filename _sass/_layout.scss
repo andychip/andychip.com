@@ -312,6 +312,14 @@
 }
 
 
+.about .half {
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width: calc(50% - (#{$spacing-unit} / 2));
+}
+
+.about .half:nth-of-type(2) {
+  margin-top: 69px;
+}
 
 @include media-query($on-laptop) {
     .footer-col-1,

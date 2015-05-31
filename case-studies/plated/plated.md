@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Case Studies
-permalink: /case-studies/
+title: Plated
+permalink: /plated/
 ---
 
 <div class="case-studies">
   <div class="page-content">
     <div class="wrapper">
       <div class="half page-heading">
-        <h1>Case Studies</h1>
-        <h3>Below are a few case studies which show how I work. I undertake quite a few NDA's so if you'd like to see more, please contact me</h3>
-        <p>The majority of my work is for startups, and is usually UX and UI for websites, web apps and mobile apps. </p>
+        <h4>User Experience, User Interface Design</h4>
+        <h1>Plated.com</h1>
+        <h3>Established in 2012, Plated are subscription based food delivery company based in New York </h3>
+
       </div>
     </div>
   </div>
@@ -28,4 +29,4 @@ permalink: /case-studies/
     </div>
   </div>
 
-</div>  
+</div>
