@@ -13,11 +13,15 @@
   <script>try{Typekit.load();}catch(e){}</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script>
-    $(window).on('resize load',function() {
+  $(document).ready(function() {
+
+  $(window).on('resize load',function() {
       triHeight();
     })
     function triHeight() {
       th = $(".tri a img").height();
-      $('.half').css({'height': th +'px'});
+      $('.half, .full-wrap').css({'height': th +'px'});
+    }
+  });
 </script>
 </head>

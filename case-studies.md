@@ -4,8 +4,28 @@ title: Case Studies
 permalink: /case-studies/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="case-studies">
+  <div class="page-content">
+    <div class="wrapper">
+      <div class="half page-heading">
+        <h1>Case Studies</h1>
+        <h3>Below are a few case studies which show how I work. I undertake quite a few NDA's so if you'd like to see more, please contact me</h3>
+        <p>The majority of my work is for startups, and is usually UX and UI for websites, web apps and mobile apps. </p>
+      </div>
+    </div>
+  </div>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+  <div class="page-content">
+    <div class="wrapper">
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+      <ul class="case-study-list">
+        <li><a href="#">Plated - Optimising mobile checkout flow for this NYC startup</a></li>
+        <li><a href="#">Capacity - Content analysis and UI Design for a mobile app</a></li>
+        <li><a href="#">Coburg Banks - IA, Userflow and wireframes</a></li>
+
+      </ul>
+
+    </div>
+  </div>
+
+</div>  

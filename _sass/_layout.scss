@@ -191,19 +191,35 @@
 
 }
 
-.half {
+.home .half {
    min-height: 40vh;
 }
 
-.half:nth-of-type(1) {
+.full-wrap:nth-of-type(odd) .half:first-of-type {
  background: url(http://fillmurray.com/700/400);
  background-size: cover;
 
 }
 
-.half * {
+.full-wrap:nth-of-type(even) .half:last-of-type {
+ background: url(http://fillmurray.com/700/400);
+ background-size: cover;
+
+}
+
+.full-wrap:nth-of-type(odd) .half:last-of-type * {
  padding-left: 35%;
  padding-right: 10%;
+}
+
+.full-wrap:nth-of-type(even) .half:first-of-type * {
+ padding-left: 10%;
+ padding-right: 35%;
+}
+
+
+.half h2 {
+  margin-top: 2em;
 }
 
 .work-grid-item {
@@ -261,7 +277,39 @@
 
 
 
+/*
+ * Case Studies
+ */
 
+ .case-study-list {
+   margin-left: 0;
+ }
+
+.case-study-list li {
+  list-style: none;
+  display: block;
+
+}
+
+.case-study-list li:nth-of-type(odd) {
+  border-left: 6px $grey-color-dark solid;
+  background: #f1f1f1;
+}
+
+.case-study-list li:nth-of-type(even) {
+  border-left: 6px $grey-color solid;
+  background: #fafafa;
+}
+
+.case-study-list li a{
+  padding: 1.4em 0 1.4em 3em;
+  display: block;
+  color: $grey-color;
+}
+
+.case-study-list li:hover {
+  background: #f6f6f6;
+}
 
 
 
