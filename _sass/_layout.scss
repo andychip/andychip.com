@@ -176,6 +176,10 @@
 .sixth {
     width: 16.666667%;
     float: left;
+
+    @include media-query($on-laptop) {
+      width: 33.333333%;
+    }
 }
 
 .push-25 {
@@ -363,6 +367,13 @@ display: block;
   -moz-column-gap: 48px;
   column-count: 2;
   column-gap: 48px;
+  widows: 6;
+  orphans: 8;
+  @include media-query($on-palm) {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 }
 
 
@@ -374,6 +385,28 @@ display: block;
 
 .about .sixth:nth-of-type(-n+6) {
   padding-right: 24px;
+}
+
+.books .sixth {
+  min-height: 400px;
+  @include media-query($on-laptop) {
+    min-height: 480px;
+  }
+  @include media-query($on-palm) {
+    min-height: 380px;
+  }
+}
+.craft-beer .sixth {
+  min-height: 200px;
+}
+.bourbon .sixth {
+  min-height: 300px;
+  @include media-query($on-laptop) {
+    min-height: 550px;
+  }
+  @include media-query($on-palm) {
+    min-height: 390px;
+  }
 }
 
 .wrapper {

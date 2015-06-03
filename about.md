@@ -20,7 +20,7 @@ permalink: /about/
 
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper books">
       <h3>Stuff I recommend</h3>
       <h4>Books</h4>
       <div class="sixth">
@@ -52,25 +52,108 @@ permalink: /about/
       </div>
 
       <div class="sixth">
-        <a href="http://abookapart.com/products/responsible-responsive-design">
-        <img src="/images/rrd.svg" alt="Responsible Responsive Design by Scott Jehl" />
-        <h5>Responsible Responsive Design <em>by</em> Scott Jehl</h5>
-        </a>
-      </div>
-
-      <div class="sixth">
         <a href="http://www.amazon.co.uk/Visual-History-Typefaces-Graphic-Styles/dp/3836544806/">
         <img src="/images/taschen.jpg" alt="Type. A Visual History of Typefaces & Graphic Styles by Cees W. de Jong, Alston W. Purvis, Jan Tholenaar" />
         <h5>Type. A Visual History of Typefaces & Graphic Styles <em>by</em>  Cees W. de Jong, Alston W. Purvis &amp; Jan Tholenaar </h5>
         </a>
       </div>
+
+      <div class="sixth">
+        <a href="http://www.amazon.co.uk/JPod-Douglas-Coupland/dp/0747585873/">
+         <img src="/images/jpod.jpg" alt="JPod by Douglas Coupland" />
+         <h5>JPod <em>by</em> Douglas Coupland</h5>
+        </a>
+      </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper craft-beer">
       <h4>Craft Beer</h4>
+
+      <div class="sixth">
+        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
+        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
+        <h5>Meantime London Porter</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
+        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
+        <h5>Meantime London Porter</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
+        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
+        <h5>Meantime London Porter</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
+        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
+        <h5>Meantime London Porter</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
+        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
+        <h5>Meantime London Porter</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
+        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
+        <h5>Meantime London Porter</h5>
+        </a>
+      </div>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper bourbon">
       <h4>Bourbon</h4>
+      <div class="sixth">
+        <a href="https://www.masterofmalt.com/whiskies/woodford-reserve/woodford-reserve-double-oaked-whiskey/">
+        <img src="/images/woodford-reserve-double-oaked-whiskey.jpg" alt="Woodford Reserve Double Oaked" />
+        <h5>Woodford Reserve Double Oaked</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="https://www.masterofmalt.com/whiskies/four-roses-single-barrel-bourbon-100-proof-whiskey/">
+        <img src="/images/four-roses-single-barrel-bourbon-100-proof-whiskey.jpg" alt="Four Roses Single Barrel 100 Proof" />
+        <h5>Four Roses Single Barrel 100 Proof</h5>
+        </a>
+      </div>  
+
+      <div class="sixth">
+        <a href="https://www.masterofmalt.com/whiskies/elijah-craig-small-batch-bourbon-12-year-old-whiskey/">
+        <img src="/images/elijah-craig-small-batch-bourbon-12-year-old-whiskey.jpg" alt="Elijah Craig Small Batch Bourbon 12 Year Old" />
+        <h5>Elijah Craig Small Batch Bourbon 12 Year Old</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="https://www.masterofmalt.com/whiskies/bulleit/bulleit-rye-whiskey/">
+        <img src="/images/bulleit-rye-whiskey.jpg" alt="Bulleit Rye" />
+        <h5>Bulleit Rye</h5>
+        </a>
+      </div>
+
+      <div class="sixth">
+        <a href="https://www.masterofmalt.com/whiskies/knob-creek-small-batch-9-year-old-whiskey/">
+        <img src="/images/knob-creek-small-batch-9-year-old-whiskey.jpg" alt="Knob Creek 9 Year Old" />
+        <h5>Knob Creek 9 Year Old</h5>
+        </a>
+      </div>  
+
+      <div class="sixth">
+        <a href="http://www.the-whisky-shop.co.uk/product/1/2630/Tap-357-Canadian-Maple-Whiskey-Liqueur.html">
+        <img src="/images/tap357.jpg" alt="Tap 357" />
+        <h5>Tap 357 Canadian Maple</h5>
+        </a>
+      </div>
 
     </div>
