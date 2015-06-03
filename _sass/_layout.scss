@@ -137,6 +137,22 @@
 }
 
 
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: $grey-color;
+}
+
+.svg-icon circle {
+  stroke: $grey-color;
+  stroke-width: 1;
+}
+
 
 /*
  * Full width basic grid
@@ -154,6 +170,11 @@
 
 .quarter {
     width: 25%;
+    float: left;
+}
+
+.sixth {
+    width: 16.666667%;
     float: left;
 }
 
@@ -178,22 +199,19 @@
    position: relative;
    display: block;
    width: 100%;
-   min-height: 40vh;
+
  }
 
 .tri {
   position: absolute;
-  width: 30vw;
-  left: 35%;
+  width: 35vw;
+  left: 32.5%;
   }
 
 .tri img {
 
 }
 
-.home .half {
-   min-height: 40vh;
-}
 
 .full-wrap:nth-of-type(odd) .half:first-of-type {
  background: url(http://fillmurray.com/700/400);
@@ -207,14 +225,14 @@
 
 }
 
-.full-wrap:nth-of-type(odd) .half:last-of-type * {
- padding-left: 35%;
+.home .half:last-of-type {
+ padding-left: 20%;
  padding-right: 10%;
 }
 
-.full-wrap:nth-of-type(even) .half:first-of-type * {
+.full-wrap:nth-of-type(even) > .half:first-of-type {
  padding-left: 10%;
- padding-right: 35%;
+ padding-right: 20%;
 }
 
 
@@ -222,11 +240,9 @@
   margin-top: 2em;
 }
 
-.work-grid-item {
 
-}
 
-.work-grid-item a {
+.tri a {
   -webkit-filter: grayscale(100%);
    -moz-filter: grayscale(100%);
    filter: grayscale(100%);
@@ -238,7 +254,7 @@
 
 }
 
-.work-grid-item a:hover {
+.tri a:hover {
   -webkit-filter: grayscale(0%);
    -moz-filter: grayscale(0%);
    filter: grayscale(0%);
@@ -248,6 +264,35 @@
    transition: all 0.7s ease-out;
 }
 
+.work-grid p:last-of-type {
+  margin-top: 3em;
+display: block;
+}
+
+.work-link {
+  padding: 1em;
+  border: 2px solid;
+  display: inline;
+  width: 100%;
+  border-radius: 28px;
+  margin-top: 2em;
+
+}
+
+.plated{
+  border-color: red;
+  color: red;
+}
+
+.lwf {
+  border-color: green;
+  color: green;
+}
+
+.coburg {
+  border-color: purple;
+  color: purple;
+}
 
 .cs-odd a {
 
@@ -311,15 +356,32 @@
   background: #f6f6f6;
 }
 
-
-.about .half {
-  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-  width: calc(50% - (#{$spacing-unit} / 2));
+.intro-content {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 48px;
+  -moz-column-count: 2;
+  -moz-column-gap: 48px;
+  column-count: 2;
+  column-gap: 48px;
 }
 
-.about .half:nth-of-type(2) {
-  margin-top: 69px;
+
+.about .sixth img {
+  width: 100%;
+  margin-bottom: 1em;
+
 }
+
+.about .sixth:nth-of-type(-n+6) {
+  padding-right: 24px;
+}
+
+.wrapper {
+  margin-bottom: 2em;
+}
+
+
+
 
 @include media-query($on-laptop) {
     .footer-col-1,
@@ -352,9 +414,7 @@
 }
 
 .page-heading {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+
   padding-top: 24px;
 }
 
@@ -397,6 +457,77 @@
         font-size: 36px;
     }
 }
+
+.post-list ul li:first-of-type {
+    display: none;
+}
+
+.post-list ul {
+  margin-left: 0;
+  counter-reset: postnum;
+}
+
+.post-list li {
+ list-style: none;
+ display: block;
+
+}
+
+.post-list ul li {
+  counter-increment: postnum;
+  position: relative;
+}
+
+.post-list ul li:before {
+  content: counter(postnum);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1em;
+  color: #f7f7f7;
+  background: $grey-color;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  padding: 0.2em;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1em;
+  padding: 0.4em;
+  text-align: center;
+  display: table;
+}
+
+
+.post-list ul li:nth-of-type(odd) {
+ border-left: 6px $grey-color-dark solid;
+ background: #f1f1f1;
+}
+
+.post-list ul li:nth-of-type(even) {
+ border-left: 6px $grey-color solid;
+ background: #fafafa;
+}
+
+.post-list li a{
+ padding: 1.4em 0 1.4em 4em;
+ display: block;
+ color: $grey-color;
+}
+
+.post-list ul li:hover {
+ background: #f6f6f6;
+}
+
+.post-list  {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 48px;
+  -moz-column-count: 2;
+  -moz-column-gap: 48px;
+  column-count: 2;
+  column-gap: 48px;
+}
+
 
 .post-content {
     margin-bottom: $spacing-unit;

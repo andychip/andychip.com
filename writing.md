@@ -11,7 +11,7 @@ permalink: /writing/
     <div class="wrapper">
         <ul class="post-list">
           {% for category in site.categories %}
-            <li class="half"><h3>{{ category | first }}</h3>
+            <li><h3>{{ category | first }}</h3>
               <ul>
                 {% for posts in category %}
                   {% for post in posts %}
