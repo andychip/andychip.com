@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Thinking"
+date:   2015-06-05 12:56:02
+categories: thoughts
+---
+<header class="page-heading post-title center"><h1>{{page.title}}</h1>
+</header>
+
+<div class="push-16">
+
+  <article class="post-content">
+<p>A lot of the time spent 'designing' is done in my head. It's more problem solving. The actual getting thoughts onto paper or screen is pretty quick.</p>
+<p>I often find that my best problem solving thinking is done away from the screen, and away from the office. Most difficult problems are usually solved when I'm walking with my dog, Mia, or when my head is somewhere completely different.</p>
+
+<h2>So, if you can, try to get outside during the work day.</h2>
+
+</article>
+</div>

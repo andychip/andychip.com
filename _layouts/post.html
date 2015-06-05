@@ -6,23 +6,20 @@ layout: default
   <div class="writing">
     <div class="page-content">
       <div class="wrapper">
-        <div class="push-16">
-          <header class="page-heading post-title center"><h1>{{page.title}}</h1>
-          </header>
+         {{ content }}
 
-            <article class="post-content">
-              {{ content }}
-            </article>
 
-            <!-- Pagination links -->
-            {% if page.previous %}
-            <a rel="prev" href="{{ page.previous.url }}">&larr; {{page.previous.title}}</a>
-            {% endif %}
-            {% if page.next %}
-            <a rel="next" href="{{ page.next.url }}">{{page.next.title}} &rarr;</a>
-            {% endif %}
-        </div>
+         <div class="push-16">
+         <!-- Pagination links -->
+         {% if page.previous %}
+         <a rel="prev" href="{{ page.previous.url }}">&larr; {{page.previous.title}}</a>
+         {% endif %}
+         {% if page.next %}
+         <a rel="next" href="{{ page.next.url }}">{{page.next.title}} &rarr;</a>
+         {% endif %}
+       </div>
       </div>
+
     </div>
   </div>
 </div>

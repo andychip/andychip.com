@@ -33,13 +33,19 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $grey-color;
         line-height: $base-line-height;
+        font-size: 1.2em;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
+    ul {
+      list-style: none;
+
+    }
+
     }
 
     @include media-query($on-palm) {
@@ -87,7 +93,30 @@
     }
 }
 
+.trigger {
+  ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2em;
+    position: relative;
+  }
+  li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top:80%;
+    left:0;
+    background: $grey-color;
+//    border-radius:3px;
+    display: none;
+  }
 
+  li:hover:after {
+    display: block;
+    ;
+  }
+}
 
 /**
  * Site footer
@@ -217,17 +246,31 @@
 }
 
 
-.full-wrap:nth-of-type(odd) .half:first-of-type {
- background: url(http://fillmurray.com/700/400);
+.plated-home {
+ background: url(/images/plated-home.jpg);
  background-size: cover;
 
 }
 
-.full-wrap:nth-of-type(even) .half:last-of-type {
- background: url(http://fillmurray.com/700/400);
+.coburg-home {
+ background: url(/images/coburg-home.jpg);
  background-size: cover;
 
 }
+
+.capacity-home {
+ background: url(/images/capacity-home.jpg);
+ background-size: cover;
+
+}
+
+.lwf-home {
+ background: url(/images/lwf-home-2.jpg);
+ background-size: cover;
+
+}
+
+
 
 .home .half:last-of-type {
  padding-left: 20%;
@@ -240,8 +283,10 @@
 }
 
 
-.half h2 {
-  margin-top: 2em;
+.half h3 {
+  margin-top: 3em;
+  font-weight: 700;
+
 }
 
 
@@ -266,6 +311,7 @@
    -moz-transition: all 0.7s ease-out;
    -o-transition: all 0.7s ease-out;
    transition: all 0.7s ease-out;
+   cursor: default;;
 }
 
 .work-grid p:last-of-type {
@@ -274,28 +320,52 @@ display: block;
 }
 
 .work-link {
-  padding: 1em;
   border: 2px solid;
   display: inline;
   width: 100%;
   border-radius: 28px;
   margin-top: 2em;
-
+  padding: 0.6em 1.2em;
 }
 
-.plated{
-  border-color: red;
-  color: red;
+.plated-link{
+  border-color: #f46262;
+  color: #f46262;
 }
 
-.lwf {
-  border-color: green;
-  color: green;
+.plated-link:hover {
+  color: white;
+  background: #f46262;
 }
 
-.coburg {
-  border-color: purple;
-  color: purple;
+.lwf-link {
+  border-color: #008ac5;
+  color: #008ac5;
+}
+
+.lwf-link:hover {
+  color: white;
+  background: #008ac5;
+}
+
+.coburg-link {
+  border-color: #4c1d79;
+  color: #4c1d79;
+}
+
+.coburg-link:hover {
+  color: white;
+  background: #4c1d79;
+}
+
+.capacity-link {
+  border-color: #1d62f0;
+  color: #1d62f0;
+}
+
+.capacity-link:hover {
+  color: white;
+  background: #1d62f0;
 }
 
 .cs-odd a {
@@ -308,7 +378,7 @@ display: block;
 .cs-odd a:hover {
 
   -webkit-clip-path: polygon(50% -100%, 200% 200%, -100% 200%);
-  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
 
 }
 
@@ -376,6 +446,12 @@ display: block;
   }
 }
 
+
+.case-studies .wrapper img {
+  margin: 3em auto;
+  display: inherit;
+
+}
 
 .about .sixth img {
   width: 100%;
@@ -497,39 +573,15 @@ display: block;
 
 .post-list ul {
   margin-left: 0;
-  counter-reset: postnum;
 }
 
 .post-list li {
  list-style: none;
  display: block;
-
+ width: 95%;
 }
 
-.post-list ul li {
-  counter-increment: postnum;
-  position: relative;
-}
 
-.post-list ul li:before {
-  content: counter(postnum);
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 1em;
-  color: #f7f7f7;
-  background: $grey-color;
-  border-radius: 50%;
-  width: 1em;
-  height: 1em;
-  padding: 0.2em;
-  text-align: center;
-  line-height: 1em;
-  font-size: 1em;
-  padding: 0.4em;
-  text-align: center;
-  display: table;
-}
 
 
 .post-list ul li:nth-of-type(odd) {
@@ -553,12 +605,23 @@ display: block;
 }
 
 .post-list  {
-  -webkit-column-count: 2;
-  -webkit-column-gap: 48px;
-  -moz-column-count: 2;
-  -moz-column-gap: 48px;
-  column-count: 2;
-  column-gap: 48px;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+ overflow: hidden;
+ justify-content: space-between;
+  @include media-query($on-laptop) {
+    display: block;
+  }
+}
+
+.post-list li ul li:first-of-type {
+  flex: 1;
+  margin-right: 24px;
+}
+
+.post-list li ul li:nth-of-type(2) {
+  flex: 2;
 }
 
 
@@ -567,6 +630,9 @@ display: block;
 
     h2 {
         font-size: 32px;
+        margin: 1em auto;
+        width: 100%;
+        display: block;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -588,4 +654,9 @@ display: block;
             font-size: 18px;
         }
     }
+}
+
+.post-content h2:after {
+  height:0;
+
 }
