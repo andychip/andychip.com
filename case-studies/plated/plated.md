@@ -48,7 +48,7 @@ permalink: /case-studies/plated/
       <ul class="case-study-list">
       <li><a href="{{site.baseurl}}/case-studies/capacity"><strong>Capacity</strong> - Content Analysis, Site Architecture and in-browser design &amp; build.</a></li>
       <li><a href="{{site.baseurl}}/case-studies/coburg-banks"><strong>Coburg Banks</strong> - IA and wireframes</a></li>
-      <li><a href="{{site.baseurl}}/case-studies/lwf"><strong>Love Worth Finding</strong> - IA and wireframes and in-browser design &amp; build.</a></li>
+      <li><a href="{{site.baseurl}}/case-studies/lwf"><strong>Love Worth Finding</strong> - IA, wireframes and in-browser design &amp; build.</a></li>
 
       </ul>
 

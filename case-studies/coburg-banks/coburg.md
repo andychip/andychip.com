@@ -34,7 +34,7 @@ permalink: /case-studies/coburg-banks/
       <ul class="case-study-list">
       <li><a href="{{site.baseurl}}/case-studies/plated"><strong>Plated</strong> - Optimising mobile checkout flow and UI Design</a></li>
       <li><a href="{{site.baseurl}}/case-studies/capacity"><strong>Capacity</strong> - Content Analysis, Site Architecture and in-browser design &amp; build.</a></li>
-      <li><a href="{{site.baseurl}}/case-studies/lwf"><strong>Love Worth Finding</strong> - IA and wireframes and in-browser design &amp; build.</a></li>
+      <li><a href="{{site.baseurl}}/case-studies/lwf"><strong>Love Worth Finding</strong> - IA, wireframes and in-browser design &amp; build.</a></li>
 
       </ul>
 
