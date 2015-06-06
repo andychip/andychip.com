@@ -10,7 +10,7 @@ permalink: /case-studies/capacity/
       <div class="half page-heading">
         <h4>User Experience, User Interface Design, in-browser design</h4>
         <h1>{{page.title}}</h1>
-        <h3>Previously known as theZooApp, Capacity is an app for Zoos, Aquariums, Parks and attractions. It was was rebranded in 2014, and I undertook content analysis, and subsequently restructured the site to make it simpler to navigate. </h3>
+        <h3>Previously known as theZooApp, Capacity is an app for Zoos, Aquariums, Parks and attractions. It was rebranded in 2014, and I undertook content analysis (subsequently restructuring the site) and the UI Design. This was done in-browser to speed up completion.</h3>
 
       </div>
     </div>

@@ -11,7 +11,8 @@ permalink: /case-studies/plated/
         <h4>User Experience, User Interface Design</h4>
         <h1>Plated.com</h1>
         <h3>Established in 2012, Plated are a subscription based food delivery company based in New York</h3>
-        <p>I was integrated into the Plated design team with the task of designing landing pages and simplifying their checkout flow. One of the key elements that was implemented from my designs, was to shorten checkout forms as much as possible and to pre-fill as much information as we could. </p>
+        <p>I was integrated into the Plated design team with the task of designing landing pages, simplifying their checkout flow and overall increasing conversions. One of the key elements that was implemented from my work, was to shorten checkout forms, and to pre-fill as much information as possible.</p>
+        <p>I was working within brand and UI guidelines that were 3 years old, so subtle changes were brought in over time to update the look.</p>
 
       </div>
     </div>

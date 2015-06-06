@@ -11,7 +11,8 @@ permalink: /case-studies/lwf/
         <h4>User Experience, in-browser design</h4>
         <h1>Love Worth Finding</h1>
         <h3>LWF has a multi-million dollar video and audio ministry in the US. </h3>
-        <p>Their original site was overly complicated, incredibly hard to navigate and inconsistent throughout. I restructured the site to enable a more fluid user journey, and produced a much cleaner UI</p>
+        <p>Their original site was overly complicated, incredibly hard to navigate and inconsistent throughout. I restructured the site to enable a more fluid user journey, and produced a much cleaner UI.</p>
+        <p>The design process, by client request, needed to be quick, so I went from site architecture, straight to in-browser design. Having fast feedback from the client was critical.</p>
         <p><a href="http://www.lwf.org">Previous site still live here for comparison</a></p>
 
       </div>
