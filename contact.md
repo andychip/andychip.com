@@ -3,9 +3,23 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+<div class="contact">
+  <div class="page-content">
+    <div class="wrapper">
+    <div class="page-heading">
+      <h1>{{page.title}}</h1>
+      </div>  
+        <div class="half">
+        <p>If you'd like to get in touch, please reach out through one of the avenues below. I don't give out my email here or any other website, because, you know, spam. And recruiters.</p>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+        <p><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>,
+        <a href="https://dribbble.com/{{ site.dribbble_username }}">Dribbble</a>,
+        <a href="https://instagram.com/{{ site.instagram_username }}">Instagram</a>
+        </p>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+        </div>
+
+    </div>
+  </div>
+</div>

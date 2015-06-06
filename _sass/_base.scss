@@ -154,11 +154,15 @@ p, ul, li, a {
 
 p {
   font-size: 1.4em;
+
+
+}
+
+.home p{
   @include media-query($on-desktop) {
       font-size: 1.2em;
       line-height: 1.2em;
   }
-
 }
 
 

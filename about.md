@@ -11,12 +11,12 @@ permalink: /about/
       <h1>{{page.title}}</h1>
       </div>  
         <div class="intro-content">
-        <p>I'm Andy Chipperfield, and I've been a UX/UI designer full-time since 2007.  Previous to that I worked for 7 years in the City of London as a Catastrophe Modeller. I quit that job to do what I love.  </p>
+        <p>I'm Andy Chipperfield, and I've been a UX/UI designer full-time since 2007.  Previous to that I worked for 7 years in the City of London as a Catastrophe Modeller. I quit that job to do what I love.</p>
 
-        <p>I hand-coded my first website in notepad in early 1998. Nowadays, I use <a href="https://balsamiq.com/">Balsamiq</a>, <a href="https://atom.io/">Atom</a>, <a href="http://bohemiancoding.com/sketch/">Sketch</a> and <a href="http://framerjs.com/">Framer</a> to produce a variety of UX Documents and UI resources for clients, in an agile and lean environment. </p>
+        <p>I hand-coded my first website in notepad in early 1998. Nowadays, I use the best tools for the job and services, which include <a href="https://balsamiq.com/">Balsamiq</a>, <a href="http://bohemiancoding.com/sketch/">Sketch</a>, <a href="http://www.invisionapp.com/">inVision</a>, <a href="http://framerjs.com/">Framer</a>, <a href="http://github.com/">Github</a> and <a href="https://atom.io/">Atom</a> to produce a variety of UX Documents, UI resources and fully built websites for clients, mainly in an agile and lean environment. </p>
 
-        <p>Outside of digital design, I like to woodburn and sell unique items of pyrography in my shop <a href="http://burncraft.co">Burncraft</a>. I love craft beer (particularly a Porter, if we ever meet), and have a large soft spot for Bourbon. I have 2 children, Neve and Noah, who take up most of my other time. We're currently in the Express Entry pool to emigrate to Vancouver, hopefully before the end of 2015. </p>
-      </div>
+        <p>Outside of digital design, I like to woodburn and sell unique items of pyrography in my online shop <a href="http://burncraft.co">Burncraft</a>. I love craft beer (particularly a Porter, if we ever meet), and have a large soft spot for Bourbon. I have 2 children, Neve and Noah, who take up most of my other time. We're currently in the Express Entry pool to emigrate to Vancouver, hopefully before the end of 2015. </p>
+        </div>
 
     </div>
 
@@ -52,9 +52,9 @@ permalink: /about/
       </div>
 
       <div class="sixth">
-        <a href="http://www.amazon.co.uk/Visual-History-Typefaces-Graphic-Styles/dp/3836544806/">
-        <img src="/images/taschen.jpg" alt="Type. A Visual History of Typefaces & Graphic Styles by Cees W. de Jong, Alston W. Purvis, Jan Tholenaar" />
-        <h5>Type. A Visual History of Typefaces & Graphic Styles <em>by</em>  Cees W. de Jong, Alston W. Purvis &amp; Jan Tholenaar </h5>
+        <a href="http://www.amazon.co.uk/Revelation-Space-Alastair-Reynolds/dp/0575083093/">
+        <img src="/images/rev-space.jpg" alt="Revelation Space by Alastair Reynolds" />
+        <h5>Revelation Space <em>by</em> Alastair Reynolds </h5>
         </a>
       </div>
 
@@ -68,11 +68,11 @@ permalink: /about/
 
     <div class="wrapper craft-beer">
       <h4>Craft Beer</h4>
-
+      <p><em>These are in no special order; they're all incredibly good...</em></p>
       <div class="sixth">
-        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
-        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
-        <h5>Meantime London Porter</h5>
+        <a href="https://www.brewdog.com/item/534/BrewDog/Bourbon-Baby.html">
+        <img src="/images/bourbonbaby.jpg" alt="Bourbon Baby" />
+        <h5>Brewdog Bourbon Baby</h5>
         </a>
       </div>
 
@@ -84,30 +84,32 @@ permalink: /about/
       </div>
 
       <div class="sixth">
-        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
-        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
-        <h5>Meantime London Porter</h5>
+        <a href="https://www.brewdog.com/beer/headliners/punk-ipa">
+        <img src="/images/punk-ipa.jpg" alt="Punk IPA" />
+        <h5>Brewdog Punk IPA</h5>
+        </a>
+      </div>
+
+
+
+      <div class="sixth">
+        <a href="http://www.sierranevada.com/beer/year-round/pale-ale">
+        <img src="/images/sierranevada.jpg" alt="Sierra Nevada" />
+        <h5>Sierra Nevada</h5>
         </a>
       </div>
 
       <div class="sixth">
         <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
-        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
-        <h5>Meantime London Porter</h5>
+        <img src="/images/suffolk-pride.jpg" alt="Mauldons Suffolk Pride" />
+        <h5>Mauldons Suffolk Pride</h5>
         </a>
       </div>
 
       <div class="sixth">
-        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
-        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
-        <h5>Meantime London Porter</h5>
-        </a>
-      </div>
-
-      <div class="sixth">
-        <a href="http://www.beermerchants.com/meantime-london-porter-6-5-75cl-bottle.html">
-        <img src="/images/meantime-75cl-porter.jpg" alt="Meantime London Porter" />
-        <h5>Meantime London Porter</h5>
+        <a href="http://www.wildriverbrewing.com/our-microbrews/seasonal-brews">
+        <img src="/images/blackberry-porter.jpg" alt="Wild River Blackberry Porter" />
+        <h5>Wild River Blackberry Porter</h5>
         </a>
       </div>
     </div>
