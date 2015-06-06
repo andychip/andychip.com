@@ -8,16 +8,22 @@ permalink: /case-studies/coburg-banks/
   <div class="page-content">
     <div class="wrapper">
       <div class="half page-heading">
-        <h4>User Experience, User Interface Design</h4>
+        <h4>User Experience</h4>
         <h1>Coburg Banks</h1>
         <h3>Coburg Banks are a recruitment firm based in the Midlands</h3>
         <p>I was asked to plan out their current site architecture, and propose a new one for their 2 main personas. After that wireframes were produced for each of these pages. This project is on going, so will update with the UI design when it becomes available.</p>
 
       </div>
     </div>
-    <div class="wrapper">
-      <img src="/images/coburg-current-IA.jpg" />
-      <img src="/images/coburg-proposed-IA.jpg" />
+    <div class="wrapper center cs-content">
+    <h3>Current Site Architecture</h3>
+    <img src="/images/coburg-current-IA.jpg" />
+    <h3>Proposed Site Architecture</h3>
+    <img src="/images/coburg-proposed-IA.jpg" />
+    <h3>Responsive Home Page Wireframes</h3>
+    <img src="/images/coburg-wireframes.jpg" />
+
+
     </div>
 
   </div>
@@ -26,9 +32,9 @@ permalink: /case-studies/coburg-banks/
     <div class="wrapper">
 
       <ul class="case-study-list">
-        <li><a href="/case-studies/plated">Plated - Optimising mobile checkout flow for this NYC startup</a></li>
-        <li><a href="/case-studies/capacity">Capacity - Content analysis and UI Design for a mobile app</a></li>
-        <li><a href="/case-studies/lwf">Love Worth Finding - IA, Userflow and wireframes</a></li>
+      <li><a href="{{site.baseurl}}/case-studies/plated"><strong>Plated</strong> - Optimising mobile checkout flow and UI Design</a></li>
+      <li><a href="{{site.baseurl}}/case-studies/capacity"><strong>Capacity</strong> - Content Analysis, Site Architecture and in-browser design &amp; build.</a></li>
+      <li><a href="{{site.baseurl}}/case-studies/lwf"><strong>Love Worth Finding</strong> - IA and wireframes and in-browser design &amp; build.</a></li>
 
       </ul>
 

@@ -19,12 +19,15 @@
   $(document).ready(function() {
 
   $(window).on('resize load',function() {
+    if ($(window).width() > 600) {
       triHeight();
-    })
-    function triHeight() {
-      th = $(".tri a img").height();
-      $('.half, .full-wrap').css({'height': th +'px'});
     }
+
+      function triHeight() {
+        th = $(".tri a img").height();
+        $('.half, .full-wrap').css({'height': th +'px'});
+    }
+  })
 
 
 

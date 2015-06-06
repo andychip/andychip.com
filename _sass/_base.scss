@@ -89,32 +89,51 @@ h1, h2, h3, h4, h5, h6, p {
 h1 {
     font-weight: 700;
     -moz-font-feature-settings: "kern=1";
-  -webkit-font-feature-settings: "kern";
-  -moz-font-feature-settings: "kern";
-  font-feature-settings: "kern";
-  font-kerning: normal;
-  font-size: 64px;
-  position: relative;
-  line-height: 84px;
-  color: $grey-color-dark;
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    font-size: 64px;
+    position: relative;
+    line-height: 72px;
+    color: $grey-color-dark;
+
+    @include media-query($on-palm) {
+            font-size: 44px;
+            line-height: 64px;
+      }
 }
 
+
+
+
+
 h2 {
-
   font-weight: 500;
-
   color: $grey-color;
   font-family: "freight-text-pro",sans-serif;
   font-size: 2.4em;
   font-style: italic;
+  @include media-query($on-palm) {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
-h3 {
 
+
+h3 {
   font-weight: 700;
   color: $grey-color;
   font-size: 1.8em;
+  @include media-query($on-laptop) {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    padding-top: 0.4em;
+  }
 }
+
+
 
 h2:after {
   content: '';
@@ -135,7 +154,13 @@ p, ul, li, a {
 
 p {
   font-size: 1.4em;
+  @include media-query($on-desktop) {
+      font-size: 1.2em;
+      line-height: 1.2em;
+  }
+
 }
+
 
 /**
  * Links
