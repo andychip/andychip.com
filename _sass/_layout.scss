@@ -158,7 +158,7 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
-    border-top: 1px solid $grey-color-light;
+
     padding-top: $spacing-unit;
 }
 
@@ -166,6 +166,9 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+      @include media-query($on-palm) {
+        text-align: center;;
+      }
 }
 
 .footer-col-1 {
@@ -347,20 +350,32 @@
    }
 
    @include media-query($on-laptop) {
-     padding-left: 8%;
-
+     padding-left: 4%;
+     position: absolute;
+     bottom: 0;
+     padding-right: 0;
+   }
+   @include media-query($on-palm) {
+     padding-left: 4%;
+     position: relative;
+     bottom: 0;
+     padding-right: 0;
    }
 
 
 }
 
+.home .half p {
+  width: 80%;
+  @include media-query($on-palm) {
+      margin: 0 auto;
+  }
+}
+
 .full-wrap:nth-of-type(even) > .half:first-of-type {
  padding-left: 4%;
- padding-right: 16%;
- @include media-query($on-laptop) {
+ padding-right: 4%;
 
-   padding-right: 8%;
- }
 }
 
 .full-wrap:nth-of-type(odd) > .half:first-of-type {
@@ -417,17 +432,31 @@
   margin-top: 2em;
 display: block;
 padding-bottom: 4em;
+@include media-query($on-desktop) {
+
+padding-bottom: 1em;
+}
 }
 
 .work-grid .full-wrap {
 
   border-bottom: 1px solid $grey-color-light;
   margin-bottom:4em;
+  @include media-query($on-desktop) {
+    margin-bottom:2em;
+  }
+
+  @include media-query($on-palm) {
+    border-bottom: 0px;
+  }
 }
 
 .work-grid .full-wrap:last-of-type {
   padding-bottom:0em;
   margin-bottom:4em;
+  @include media-query($on-palm) {
+    border-bottom: 0px;
+  }
 }
 
 .work-link {
@@ -688,6 +717,10 @@ padding-bottom: 4em;
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-title h1 {
+  margin-bottom: 1em;
 }
 
 .post-list ul li:first-of-type {
