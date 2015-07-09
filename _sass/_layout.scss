@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color;
+    border-top: 0px solid $grey-color;
     min-height: 56px;
-    padding-top: 24px;
+    padding-top: 36px;
     padding-bottom: 12px;
     position: relative;
     @include media-query($on-palm) {
@@ -138,7 +138,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 0px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -158,6 +158,8 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    border-top: 1px solid $grey-color-light;
+    padding-top: $spacing-unit;
 }
 
 .footer-col {
@@ -295,49 +297,36 @@
   overflow: hidden;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
+  figure {
+    margin-bottom: 0;
+  }
+
 }
 
 
 
 
 .plated-home {
- background: url(/images/plated-home.jpg);
- background-size: cover;
- @include media-query($on-palm) {
-   background: none;
- }
+
 
 }
 
 .coburg-home {
- background: url(/images/coburg-home.jpg);
- background-size: cover;
- @include media-query($on-palm) {
-   background: none;
- }
 
 }
 
 .capacity-home {
- background: url(/images/capacity-home.jpg);
- background-size: cover;
- @include media-query($on-palm) {
-   background: none;
- }
+  padding-bottom: 2em;
 }
 
 .lwf-home {
- background: url(/images/lwf-home-2.jpg);
- background-size: cover;
- @include media-query($on-palm) {
-   background: none;
- }
+
 }
 
 .home .half {
-  padding-top: 2.4em;
+
   @include media-query($on-desktop) {
-  padding-top: 1.6em;
+  padding-top: 2em;
   }
   @include media-query($on-palm) {
   padding-left: 4% !important;
@@ -348,11 +337,12 @@
 }
 
 .home .half:last-of-type {
- padding-left: 20%;
- padding-right: 10%;
+ padding-left: 4%;
+
+ padding-top: 3.2em;
 
    @include media-query($on-desktop) {
-     padding-left: 16%;
+
      padding-right: 4%;
    }
 
@@ -426,6 +416,18 @@
 .work-grid p:last-of-type {
   margin-top: 2em;
 display: block;
+padding-bottom: 4em;
+}
+
+.work-grid .full-wrap {
+
+  border-bottom: 1px solid $grey-color-light;
+  margin-bottom:4em;
+}
+
+.work-grid .full-wrap:last-of-type {
+  padding-bottom:0em;
+  margin-bottom:4em;
 }
 
 .work-link {

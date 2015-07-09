@@ -10,6 +10,20 @@ dl, dd, ol, ul, figure {
 
 * {box-sizing: border-box;}
 
+html {
+  @include media-query($on-desktop) {
+  border-top: 0px solid $grey-color-dark;
+  border-left: 0px solid $grey-color-dark;
+  border-right: 0px solid $grey-color-dark;
+}
+border-top: 32px solid $grey-color-dark;
+border-left: 32px solid $grey-color-dark;
+border-right: 32px solid $grey-color-dark;
+
+
+
+}
+
 /**
  * Basic styling
  */
