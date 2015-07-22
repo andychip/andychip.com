@@ -187,6 +187,10 @@
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
+.footer-col a:hover {
+  color: white;
+}
+
 
 .svg-icon {
   width: 1em;
