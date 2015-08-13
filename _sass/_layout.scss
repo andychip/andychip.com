@@ -302,6 +302,13 @@
 
 }
 
+.work-grid {
+  @include media-query($on-palm) {
+    margin-bottom: 3em;
+
+    }
+}
+
 .work-grid .full-wrap {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -343,10 +350,14 @@
   @include media-query($on-palm) {
   padding-left: 4% !important;
   padding-right: 4% !important;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 0px solid $grey-color-light;
+  padding-top: 0;
+  margin-bottom: 0em;
   }
 
 }
+
+
 
 .home .half:last-of-type {
  padding-left: 4%;
@@ -369,6 +380,7 @@
      position: relative;
      bottom: 0;
      padding-right: 0;
+     padding-top: 0;
    }
 
 
@@ -388,29 +400,23 @@
 }
 
 .full-wrap:nth-of-type(odd) > .half:first-of-type {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3.2em;
+
   @include media-query($on-palm) {
-    display: none;
-  padding-bottom: 3em;
-  }
-}
-.full-wrap:nth-of-type(odd) > .half:last-of-type {
-  @include media-query($on-palm) {
-      padding-bottom: 3em;
+
+  padding-bottom: 0em;
   }
 }
 
-.full-wrap:nth-of-type(even) > .half:first-of-type {
-  @include media-query($on-palm) {
 
-  padding-bottom: 3em;
-  }
-}
-.full-wrap:nth-of-type(even) > .half:last-of-type {
+.work-grid .full-wrap figure {
   @include media-query($on-palm) {
-    display: none;
-  padding-bottom: 3em;
+  display: none;
   }
 }
+
 
 
 
@@ -517,6 +523,17 @@ padding-bottom: 1em;
   color: white;
   background: #1d62f0;
 }
+
+.bink-link {
+  border-color: #00A9DA;
+  color: #00A9DA;
+}
+
+.bink-link:hover, .bink-link:focus {
+  color: white;
+  background: #00A9DA;
+}
+
 
 .cs-odd a {
 
