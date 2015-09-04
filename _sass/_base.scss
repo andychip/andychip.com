@@ -155,8 +155,14 @@ h3.rw {
 }
 
 h3.rw em{
-  font-style: italic;
-  font-family: "freight-text-pro",sans-serif;
+  font-style: normal;
+    font-family: "freight-text-pro",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 0.6em;
+    color: #5C6D7A;
+    line-height: 1.2em;
+    font-weight: 500;
 
 }
 
