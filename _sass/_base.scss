@@ -177,6 +177,21 @@ h2:after {
   margin-top: 44px;
   margin-top: 4.85rem;
   background-color: $grey-color;
+  @include media-query($on-desktop) {
+      width: 10%;
+  }
+  @include media-query($on-laptop) {
+      width: 15%;
+  }
+  @include media-query($on-palm) {
+      width: 26%;
+  }
+
+
+
+
+
+
 }
 
 p, ul, li, a {

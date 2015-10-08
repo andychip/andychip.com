@@ -54,7 +54,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 15px;
+        top: 36px;
         right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -305,6 +305,7 @@
 .work-grid {
   @include media-query($on-palm) {
     margin-bottom: 3em;
+    margin-top: 3em;
 
     }
 }
@@ -396,18 +397,20 @@
 .full-wrap:nth-of-type(even) > .half:first-of-type {
  padding-left: 4%;
  padding-right: 4%;
+padding-top: 3.2em;
 
+@include media-query($on-palm) {
+
+padding-top: 0em;
+}
 }
 
 .full-wrap:nth-of-type(odd) > .half:first-of-type {
   padding-left: 4%;
   padding-right: 4%;
-  padding-top: 3.2em;
 
-  @include media-query($on-palm) {
 
-  padding-bottom: 0em;
-  }
+
 }
 
 
@@ -451,6 +454,11 @@ padding-bottom: 4em;
 
 padding-bottom: 1em;
 }
+}
+
+.work-grid .prove p:last-of-type {
+padding-bottom: 1em;
+
 }
 
 .work-grid .full-wrap {
@@ -503,6 +511,17 @@ padding-bottom: 1em;
   color: white;
   background: #008ac5;
 }
+
+.prove-link {
+  border-color: #3DB569;
+  color: #3DB569;
+}
+
+.prove-link:hover, .prove-link:focus {
+  color: white;
+  background: #3DB569;
+}
+
 
 .coburg-link {
   border-color: #4c1d79;
